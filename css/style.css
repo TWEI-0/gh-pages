@@ -29,7 +29,6 @@ a {
 
 /* リンクにカーソルが乗っている状態 */
 a:hover {
-  /* 下線を表示 */
   text-decoration: underline;
 }
 
@@ -54,12 +53,13 @@ img.icon {
 }
 
 .nav li {
-  font-size: 20px;
+  /* これを設定すると下線の幅がおかしくなる */
+  /* font-size: 20px; */
+  padding-right: 30px;
   /* ブロック表示をインライン表示に変更 */
   display: inline;
   /* 箇条書き「・」の消去 */
   list-style-type: none;
-  padding-right: 30px;
 }
 
 /* コンテンツ */
