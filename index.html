@@ -2,9 +2,163 @@
 <html>
 <head>
   <meta charaset="UTF-8">
-  <title>TWEI | ポートフォリオサイト</title>
+  <title>ポートフォリオサイト | TWEI</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-  hello world!
+  <div class="top">
+    <h1>Portfolio</h1>
+  </div>
+
+  <!-- TODO: A ナビゲーションリンクのホバー時に下線が正常に表示されないバグがあります。 -->
+  <ul class="nav">
+    <li><a href="#profile-id">Profile</a></li>
+    <li><a href="#skill-set-id">Skill set</a></li>
+    <li><a href="#works-id">Works</a></li>
+    <li><a href="#contact-id">Contact</a></li>
+  </ul>
+
+  <div class="contents">
+    <h2 id="profile-id">Profile</h2>
+    <img src="images/icon/twei.png" width="150px" height="150px" alt="アイコン" class="icon">
+    <p>TWEI（ツヴァイ）</p>
+    <ul class="nav">
+      <li><a href="https://twitter.com/twei_blog" target="_blank" rel="noopener noreferrer"><img src="images/icon/twitter.jpg" width="50px" height="50px"></a></li>
+      <li><a href="https://github.com/twei-0" target="_blank" rel="noopener noreferrer"><img src="images/icon/github.png" width="50px" height="50px"></a></li>
+      <!-- TODO: A ブログへのリンクのアイコンが仮画像です。 -->
+      <li><a href="https://twei-blog.com/" target="_blank" rel="noopener noreferrer"><img src="images/icon/wordpress.png" width="50px" height="50px"></a></li>
+      <!-- TODO: A ピクシブのリンクは表示させないようにする。 -->
+      <li><a href="https://www.pixiv.net/users/6603537" target="_blank" rel="noopener noreferrer"><img src="images/icon/pixiv.ico" width="50px" height="50px"></a></li>
+    </ul>
+  </div>
+
+  <div class="contents skill-set">
+    <!-- TODO: B スキルセットの箇条書きを枠線の上部に表示させる。 -->
+    <!-- TODO: B スキル内容の左右の位置を中央に揃える。 -->
+    <!-- TODO: A 各スキルのランクを更新する。 -->
+    <h2 id="skill-set-id">Skill set</h2>
+    <table>
+    <tr>
+      <td>
+        <div class="skill-set-column">
+          <h3>言語</h3>
+          <table>
+            <tr>
+              <td>
+                <ul>
+                  <li>HTML/CSS</li>
+                  <li>Ruby</li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li>★☆☆☆☆</li>
+                  <li>★☆☆☆☆</li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </td>
+      <td>
+        <div class="skill-set-column">
+          <h3>フレームワーク</h3>
+          <table>
+            <tr>
+              <td>
+                <ul>
+                  <li>Ruby on Rails</li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li>★☆☆☆☆</li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="skill-set-column">
+          <h3>ツール</h3>
+          <table>
+            <tr>
+              <td>
+                <ul>
+                  <li>Git</li>
+                  <li>GitHub</li>
+                  <li>Heroku</li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li>★☆☆☆☆</li>
+                  <li>★☆☆☆☆</li>
+                  <li>★☆☆☆☆</li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </td>
+      <td>
+        <div class="skill-set-column">
+          <h3>OS</h3>
+          <table>
+            <tr>
+              <td>
+                <ul>
+                  <li>Mac</li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li>★☆☆☆☆</li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </td>
+    </tr>
+    </table>
+  </div>
+
+  <div class="contents works">
+    <h2 id="works-id">Works</h2>
+    <table>
+    <tr>
+      <td>
+        <div class="works-column">
+          <a href="https://twei-0.github.io/gh-pages/">
+            <img src="images/works_portfolio.png" width="300px" height="200px">
+            <p>ポートフォリオサイト</p>
+          </a>
+        </div>
+      </td>
+      <td>
+        <div class="works-column">
+          <a href="https://mini-tm.herokuapp.com">
+            <img src="images/works_mini_tm.png" width="300px" height="200px">
+            <p>Webサービス「Mini-TM」</p>
+          </a>
+        </div>
+      </td>
+    </tr>
+    </table>
+  </div>
+
+  <div class="contents">
+    <h2 id="contact-id">Contact</h2>
+    <p>TwitterのDMにてお問い合わせいただけます。</p>
+    <a href="https://twitter.com/twei_blog" target="_blank" rel="noopener noreferrer"><img src="images/icon/twitter.jpg" width="50px" height="50px"></a>
+  </div>
+
+  <div class="footer">
+    <p>&copy; Copyright TWEI. All rights reserved.</p>
+  </div>
 </body>
 </html>
