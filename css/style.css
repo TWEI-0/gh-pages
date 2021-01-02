@@ -63,6 +63,20 @@ div.contents {
   height: 300px;
 }
 
+/* スキルセット内の一つの項目 */
+.skill-set-one-license {
+  text-align: left;
+  border: 1px solid;
+  margin: 40px;
+  padding: 0px 30px;
+  padding: 0px auto;
+  width: 640px;
+  height: 450px;
+
+  /* 中央に寄せる */
+  margin: 0px auto;
+}
+
 /* スキルセット - 項目 */
 .skill-set-one td {
   width: 150px;
